@@ -1,0 +1,40 @@
+{
+	"description": "list of dragons",
+	"data": [{
+			"name": "John",
+			"color": "Black",
+			"type": "Earth",
+			"age": 110
+		},
+		{
+			"name": "Tom",
+			"color": "Red",
+			"type": "Fire",
+			"age": 52
+		},
+		{
+			"name": "Mary",
+			"color": "Green",
+			"type": "Water",
+			"age": 87
+		},
+		{
+			"name": "Jeff",
+			"color": "Purple",
+			"type": "Wind",
+			"age": 560
+		},
+		{
+			"name": "Lucy",
+			"color": "Blue",
+			"type": "Shock",
+			"age": 201
+		},
+		{
+			"name": "Andy",
+			"color": "Grey",
+			"type": "Iron",
+			"age": 4
+		}
+	]
+}
