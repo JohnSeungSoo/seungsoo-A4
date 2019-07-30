@@ -1,0 +1,40 @@
+{
+	"description": "list of tigers",
+	"data": [{
+			"name": "Max",
+			"owner": "John",
+			"sex": "Male",
+			"age": 7
+		},
+		{
+			"name": "Maggie",
+			"owner": "Tom",
+			"sex": "Female",
+			"age": 12
+		},
+		{
+			"name": "Cooper",
+			"owner": "Mary",
+			"sex": "Male",
+			"age": 9
+		},
+		{
+			"name": "Murphy",
+			"owner": "Jeff",
+			"sex": "Male",
+			"age": 2
+		},
+		{
+			"name": "Oliver",
+			"owner": "Lucy",
+			"sex": "Male",
+			"age": 5
+		},
+		{
+			"name": "Emma",
+			"owner": "Andy",
+			"sex": "Female",
+			"age": 4
+		}
+	]
+}
