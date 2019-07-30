@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { formatDate } from '@angular/common';
+import { Seungsoo } from '../seungsoo';
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+	@Input() userInfo: Seungsoo;
+	today: string ="";
+
+  constructor() { 
+		this.today = formatDate(new Date(), 'yyyy/MM/dd', 'en');
+	}
 
   ngOnInit() {
   }

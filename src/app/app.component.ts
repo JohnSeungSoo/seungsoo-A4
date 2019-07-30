@@ -7,7 +7,9 @@ import { Seungsoo } from './seungsoo';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
 	title = 'seungsoo-A4';
+	
 	user: Seungsoo = {
 		studentId: 991494887,
 		studentName: "Seungsoo Kang",
@@ -15,4 +17,5 @@ export class AppComponent {
 		campus: "Trafalgar",
 		assignmentTitle: "Assignment4"
 	};
+
 }
