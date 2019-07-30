@@ -1,0 +1,36 @@
+<div class="grid-container">
+	<div class="grid-item">
+		<table>
+			<tr><td colspan="4">Retrieved from dragons.json</td></tr>
+			<tr>
+				<th>Name</th>
+				<th>Color</th>
+				<th>Type</th>
+				<th>Age</th>
+			</tr>
+			<tr *ngFor="let dragon of dragonList; let i = index">
+				<td>{{dragon.name}}</td>
+				<td>{{dragon.color}}</td>
+				<td>{{dragon.type}}</td>
+				<td>{{dragon.age}}</td>
+			</tr>
+		</table>
+	</div>
+	<div class="grid-item">
+		<table>
+			<tr><td colspan="4">Retrieved from tigers.json</td></tr>
+			<tr>
+				<th>Name</th>
+				<th>Owner</th>
+				<th>Sex</th>
+				<th>Age</th>
+			</tr>
+			<tr *ngFor="let tiger of tigerList; let i = index">
+				<td>{{tiger.name}}</td>
+				<td>{{tiger.owner}}</td>
+				<td>{{tiger.sex}}</td>
+				<td>{{tiger.age}}</td>
+			</tr>
+		</table>
+	</div>
+</div>

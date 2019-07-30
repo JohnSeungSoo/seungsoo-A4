@@ -25,12 +25,6 @@
 			"age": 2
 		},
 		{
-			"name": "Oliver",
-			"owner": "Lucy",
-			"sex": "Male",
-			"age": 5
-		},
-		{
 			"name": "Emma",
 			"owner": "Andy",
 			"sex": "Female",

@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(212, 245, 235);
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgb(212, 245, 235);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 1px;
+  font-size: 30px;
+	text-align: center;
+	margin: 1px;
+}
+
+table th {
+	border: .7px solid grey;
+	border-collapse: collapse;
+	font-size: .6em;
+}
+
+td {
+	width: 3%;
+	color: darkblue;
+	border: .7px solid grey;
+	border-collapse: collapse;
+	font-size: .6em;
+}

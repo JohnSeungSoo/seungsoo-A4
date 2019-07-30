@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { Seungsoo } from './seungsoo';
+import { Dragon } from './IDragon';
+import { Tiger } from './ITiger';
+import dragons from '../assets/data/dragons.json';
+import tigers from '../assets/data/tigers.json';
 
 @Component({
   selector: 'app-root',
@@ -18,4 +22,7 @@ export class AppComponent {
 		assignmentTitle: "Assignment4"
 	};
 
+	dragonData : Dragon[] = dragons.data;
+	tigerData : Tiger[] = tigers.data;
 }
+
